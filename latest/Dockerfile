@@ -1,7 +1,7 @@
 # Vamos usar a imagem base do próprio N8N
 # https://hub.docker.com/r/n8nio/n8n/tags
 
-FROM n8nio/n8n:next
+FROM n8nio/n8n:latest
 
 ################################################################################################
 # Vamos definir algumas variáveis de ambiente para configurar o N8N
