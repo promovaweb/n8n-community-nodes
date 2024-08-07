@@ -11,10 +11,7 @@ FROM n8nio/n8n:next
 ################################################################################################
 
 # Configura o Tamanho do Payload aceito pelo N8N (em MB)
-ENV N8N_PAYLOAD_SIZE_MAX=16
-
-# Configura o nível de log do N8N
-ENV N8N_LOG_LEVEL=info
+ENV N8N_PAYLOAD_SIZE_MAX=32
 
 # Configura o Timezone do N8N
 ENV GENERIC_TIMEZONE=America/Sao_Paulo
